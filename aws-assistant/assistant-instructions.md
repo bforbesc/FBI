@@ -20,7 +20,7 @@ The only time to rely purely on training knowledge is for conceptual explanation
 
 ## AWS Credentials & Profile
 
-Bernardo's AWS profile is `YOUR_AWS_PROFILE_PLACEHOLDER`. Always append `--profile <YOUR_AWS_PROFILE>` to every `call_aws` command. Example:
+Bernardo's AWS profile is `<YOUR_AWS_PROFILE>`. Always append `--profile <YOUR_AWS_PROFILE>` to every `call_aws` command. Example:
 ```
 aws service-quotas list-service-quotas --service-code sagemaker --profile <YOUR_AWS_PROFILE>
 ```

@@ -1,18 +1,18 @@
 # AWS Commands Reference
 
-Common AWS CLI commands used by the assistant. Always append `--profile YOUR_AWS_PROFILE_PLACEHOLDER` to every command.
+Common AWS CLI commands used by the assistant. Always append `--profile <YOUR_AWS_PROFILE>` to every command.
 
 ## Credentials Check
 
 ```bash
-aws sts get-caller-identity --profile YOUR_AWS_PROFILE_PLACEHOLDER
+aws sts get-caller-identity --profile <YOUR_AWS_PROFILE>
 ```
 
 ## Service Quotas
 
 List all quotas for a service:
 ```bash
-aws service-quotas list-service-quotas --service-code <service-code> --profile YOUR_AWS_PROFILE_PLACEHOLDER
+aws service-quotas list-service-quotas --service-code <service-code> --profile <YOUR_AWS_PROFILE>
 ```
 
 Common service codes:
@@ -25,7 +25,7 @@ Common service codes:
 ## Pricing
 
 ```bash
-aws pricing get-products --service-code <service-code> --filters <filters> --region us-east-1 --profile YOUR_AWS_PROFILE_PLACEHOLDER
+aws pricing get-products --service-code <service-code> --filters <filters> --region us-east-1 --profile <YOUR_AWS_PROFILE>
 ```
 
 > Note: The Pricing API is only available in `us-east-1` and `ap-south-1`.
@@ -41,12 +41,12 @@ Common service codes for pricing:
 
 Describe a specific instance type:
 ```bash
-aws ec2 describe-instance-types --instance-types <instance-type> --profile YOUR_AWS_PROFILE_PLACEHOLDER
+aws ec2 describe-instance-types --instance-types <instance-type> --profile <YOUR_AWS_PROFILE>
 ```
 
 Describe a whole family (e.g., all g5 types):
 ```bash
-aws ec2 describe-instance-types --filters Name=instance-type,Values=g5.* --profile YOUR_AWS_PROFILE_PLACEHOLDER
+aws ec2 describe-instance-types --filters Name=instance-type,Values=g5.* --profile <YOUR_AWS_PROFILE>
 ```
 
 The response includes `GpuInfo`, `VCpuInfo`, `MemoryInfo`, and `NetworkInfo` — use these as the authoritative source.
@@ -55,19 +55,19 @@ The response includes `GpuInfo`, `VCpuInfo`, `MemoryInfo`, and `NetworkInfo` —
 
 ```bash
 # SageMaker endpoints
-aws sagemaker list-endpoints --profile YOUR_AWS_PROFILE_PLACEHOLDER
+aws sagemaker list-endpoints --profile <YOUR_AWS_PROFILE>
 
 # SageMaker models
-aws sagemaker list-models --profile YOUR_AWS_PROFILE_PLACEHOLDER
+aws sagemaker list-models --profile <YOUR_AWS_PROFILE>
 
 # Running EC2 instances
-aws ec2 describe-instances --filters Name=instance-state-name,Values=running --profile YOUR_AWS_PROFILE_PLACEHOLDER
+aws ec2 describe-instances --filters Name=instance-state-name,Values=running --profile <YOUR_AWS_PROFILE>
 
 # Lambda functions
-aws lambda list-functions --profile YOUR_AWS_PROFILE_PLACEHOLDER
+aws lambda list-functions --profile <YOUR_AWS_PROFILE>
 
 # S3 buckets
-aws s3api list-buckets --profile YOUR_AWS_PROFILE_PLACEHOLDER
+aws s3api list-buckets --profile <YOUR_AWS_PROFILE>
 ```
 
 ## MCP Tool Usage
