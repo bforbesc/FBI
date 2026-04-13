@@ -1,5 +1,5 @@
 ---
-name: aws-ml-assistant
+name: aws-assistant
 description: >
   AWS expert assistant for machine learning engineers working on AWS. Use this skill
   whenever the user asks anything AWS-related — including which service to use, when
