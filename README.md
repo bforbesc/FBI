@@ -1,12 +1,16 @@
-# 🕵️ FBI — Forbes Bureau of Intelligence
+# FBI — Forbes Bureau of Intelligence
 
-Welcome to FBI, my personal intelligence headquarters.
+Personal HQ for agents and automation tools. Each folder is a self-contained agent or experiment.
 
-This is where I keep my agents, co-work tools, automation scripts, and side projects. Each folder is a self-contained agent or experiment. Think of it as a filing cabinet, but with more caffeine and fewer paper cuts.
+## Agents
 
-## Structure
+| Folder | What it does |
+|---|---|
+| [`ai-signal`](ai-signal/) | On-demand AI/ML newsletter digest from tagged Gmail emails |
+| [`aws-assistant`](aws-assistant/) | AWS expert assistant for ML engineers — live API-grounded answers |
+| [`the-scientist-advice`](the-scientist-advice/) | Research-backed answers for data/ML practitioners, with paper saving |
 
-Every folder = one agent, tool, or project. Browse around.
+Each folder has its own `README.md` with setup instructions and a `SKILL.md` with the agent definition.
 
 ## Why FBI?
 

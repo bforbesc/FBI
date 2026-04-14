@@ -103,7 +103,7 @@ When the user says they find a paper interesting, or asks you to save it, do bot
 Save directly to:
  
 ```
-papers/[short-descriptive-name].md
+research/[short-descriptive-name].md
 ```
  
 Include:
