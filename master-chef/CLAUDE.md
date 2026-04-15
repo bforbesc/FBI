@@ -19,15 +19,16 @@ data/
 
 ### Ao sugerir um plano semanal
 1. Lê `data/preferences.md`
-2. Lista as receitas existentes em `data/recipes/`
-3. Sugere pelo menos **4 receitas** variadas e equilibradas
-4. Para cada receita, cria `data/recipes/nome_normalizado.md`
+2. Lê `data/log.md` para ver que receitas foram usadas nas semanas anteriores — **não repetir**
+3. Lista as receitas existentes em `data/recipes/`
+4. Sugere pelo menos **4 receitas** variadas e equilibradas — tentar não repetir as da semana anterior, mas é aceitável se necessário
+5. Para cada receita, cria `data/recipes/nome_normalizado.md`
    - Nome do ficheiro: minúsculas, sem acentos, espaços → underscores
    - Ex: "Bacalhau com Natas" → `bacalhau_com_natas.md`
-5. Atualiza `data/weekly_plan.md` com tabela por dia
-6. Gera `data/shopping_list.md` com ingredientes consolidados
-7. Atualiza a secção "Receitas" em `data/index.md`
-8. Acrescenta entrada em `data/log.md`
+6. Atualiza `data/weekly_plan.md` com tabela por dia
+7. Gera `data/shopping_list.md` com ingredientes consolidados
+8. Atualiza a secção "Receitas" em `data/index.md`
+9. Acrescenta entrada em `data/log.md` com as receitas usadas nessa semana
 
 ### Ao receber feedback ou preferências
 1. Lê `data/preferences.md`

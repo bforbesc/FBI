@@ -16,11 +16,21 @@
 
 ---
 
+## Equipamento de cozinha
+
+- **Fogão elétrico** com níveis 1–9
+  - Lume baixo = 2–3 | Lume médio = 4–5 | Lume médio-alto = 6–7 | Lume alto = 8–9
+  - Nota: fogão elétrico demora mais a aquecer e a arrefecer — antecipar subidas/descidas de temperatura
+- **Air fryer** disponível — alternativa ao forno para frango panado, gnocchi tostados, peixe, batatas
+- **Sem confeção** também válido — saladas, wraps, tacos, hummus, guacamole e montagens frias são refeições legítimas no plano
+- Escolha entre fogão / air fryer / sem confeção depende da receita — não há preferência fixa
+
 ## Filosofia de cozinha
 
-- **Receitas fáceis e eficazes com um twist** — preferem técnicas simples mas com um elemento diferenciador: um molho inesperado, um seasoning pouco comum, uma forma de confeção diferente (ex: smash, gratinar, marinada rápida, molho de hummus em vez de natas)
+- **Receitas fáceis e eficazes com um twist** — preferem técnicas simples mas com um elemento diferenciador: um molho inesperado, um seasoning pouco comum, uma forma de confeção diferente (ex: smash, marinada rápida, molho de hummus em vez de natas)
 - O "twist" não precisa de ser complexo — pode ser só uma combinação de sabores não óbvia, uma textura contrastante, ou um ingrediente surpresa
 - Exemplos já confirmados: smash burger em tortilla, frango panado com cornflakes, molho de hummus na massa, guacamole como topping, bifinhos com natas de soja
+- **Tentar não repetir receitas semana a semana** — consultar `data/log.md` antes de gerar o plano; repetição é aceitável mas deve ser evitada sempre que possível
 
 ## Padrões alimentares
 
