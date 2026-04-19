@@ -1,7 +1,7 @@
 # Preferências Alimentares
 
 **Resumo**: Gostos, aversões e restrições alimentares — extraídas de 3 semanas de refeições reais.
-**Última atualização**: 2026-04-14
+**Última atualização**: 2026-04-19
 
 ---
 
@@ -10,7 +10,8 @@
 - **Ele: alergia ao leite e derivados** — NUNCA usar leite, natas de leite, manteiga, queijo, iogurte de leite, proteína do leite
 - **Sem gratinados com queijo** — gratinar como técnica só é válido sem queijo (ex: arroz de pato com chouriço por cima). Nunca sugerir gratinado com queijo, mozzarella, parmesão ou similar
 - **Ela: intestino sensível** — evitar alimentos muito gordurosos, muito picantes, ou que causem distensão/gases (feijão em excesso, couve crua, fritos pesados); preferir cozinhados suaves, bem cozidos, facilmente digestíveis
-- **Ela: não gosta de especiarias fortes** — NUNCA usar pimenta preta/branca em quantidade, caril, cominhos, piri-piri, sriracha, ou qualquer mistura de especiarias picantes. ✅ Permitido: pimentão doce (paprika suave), orégãos, alho em pó, ervas secas suaves (tomilho, salsa, louro)
+- **Ela: não gosta de especiarias fortes** — NUNCA usar pimenta preta/branca em quantidade, caril, cominhos, piri-piri, sriracha, ou qualquer mistura de especiarias picantes. ✅ Permitido: pimentão doce (paprika suave), orégãos, alho em pó, ervas secas suaves (tomilho, louro)
+- **Ela: não gosta de salsa fresca nem coentros** — NUNCA usar salsa fresca ou coentros em nenhuma receita. Ervas secas tipo tomilho ou orégãos são ok
 - Alternativas usadas: **natas de soja**, **iogurte de soja**, **salsichas vegan**, **maionese de soja**
 - Verificar sempre os rótulos: almôndegas, chouriço, gyozas e outros produtos processados podem conter leite
 
@@ -37,6 +38,7 @@
 - **Almoço**: refeição mais substancial (proteína + hidrato + verde)
 - **Jantar**: mais leve — muitas vezes ovos + salada ou sobras do almoço
 - **Fim de semana**: pratos ligeiramente mais elaborados ou de ocasião
+- **3–4 refeições por semana** — cada refeição rende 2 dias (sobras no dia seguinte); por vezes encomendado quando não há tempo
 - Usa frequentemente **natas de soja** e **iogurte de soja** → provavelmente lactose ou opção vegan quando possível
 - Usa **salsichas vegan** como alternativa (S2)
 - Dieta **flexível**: mistura peixe, carne, ovos e refeições vegetarianas ao longo da semana
@@ -114,3 +116,4 @@ Arroz, massa, ovos, cebola, alho, tomate, polpa de tomate, cogumelos, brócolos,
 - **S3**: Repetição de bolonhesa (2x — funciona como sobras); migas de feijão apreciadas
 - **Extra documentado**: frango panado com cornflakes e molho de pickles + iogurte soja + mostarda; tacos de camarão com abacate
 - **2026-04-14**: Adicionada receita de smash burger em tortilla
+- **Semana 2026-04-14/19**: Almôndegas com massa, salmão grelhado, frango panado com cornflakes e arroz — não repetir esta semana; Rita está farta de salmão (evitar nas próximas semanas)

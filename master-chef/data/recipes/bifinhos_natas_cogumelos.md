@@ -14,7 +14,7 @@
 - 1 colher de sopa de azeite
 - 1 colher de chá de mostarda
 - Sal, tomilho
-- Opcional: 50 ml de vinho branco, salsa picada
+- Opcional: 50 ml de vinho branco
 
 ## Modo de Preparação
 1. Tempera os bifinhos com sal dos dois lados.
