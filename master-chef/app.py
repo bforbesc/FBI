@@ -6,13 +6,29 @@ import gradio as gr
 DATA = Path(__file__).parent / "data"
 
 CSS = """
+/* Override Gradio CSS variables — this wins over the theme */
+:root, .dark {
+    --body-text-color: #111 !important;
+    --body-text-color-subdued: #444 !important;
+    --block-label-text-color: #333 !important;
+    --color-accent: #111 !important;
+    --color-accent-soft: #eee !important;
+    --button-secondary-text-color: #444 !important;
+    --tab-text-color: #444 !important;
+    --tab-text-color-selected: #111 !important;
+}
+
 /* Container */
 .gradio-container {
-    max-width: 720px !important;
-    margin: 0 auto !important;
-    padding: 40px 24px 80px !important;
+    max-width: none !important;
+    width: 100% !important;
+    padding: 48px 80px 80px !important;
     background: #fff !important;
+    box-sizing: border-box !important;
 }
+.main.app { max-width: none !important; padding: 0 !important; }
+.contain { max-width: none !important; width: 100% !important; }
+.tabs { max-width: none !important; width: 100% !important; }
 * { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important; }
 
 /* Title */
@@ -36,11 +52,10 @@ CSS = """
     background: none !important;
     border: none !important;
     border-bottom: 2px solid transparent !important;
-    color: #999 !important;
-    font-size: 0.825rem !important;
+    color: #444 !important;
+    opacity: 1 !important;
+    font-size: 0.9rem !important;
     font-weight: 500 !important;
-    text-transform: uppercase !important;
-    letter-spacing: 0.06em !important;
     padding: 8px 16px 8px 0 !important;
     margin-right: 8px !important;
     cursor: pointer !important;
@@ -49,28 +64,25 @@ CSS = """
 }
 .tabs > .tab-nav button.selected {
     color: #111 !important;
+    opacity: 1 !important;
     border-bottom: 2px solid #111 !important;
 }
 
 /* Progress */
-.progress-line {
-    font-size: 0.75rem !important;
-    color: #aaa !important;
-    letter-spacing: 0.05em !important;
-    text-transform: uppercase !important;
+.progress-line, .progress-line p, .progress-line * {
+    font-size: 0.9rem !important;
+    color: #333 !important;
+    opacity: 1 !important;
     margin-bottom: 2rem !important;
 }
 
-/* Category label */
-.checkboxgroup > .block > label,
-.checkboxgroup label.svelte-1b6s6s,
-.checkboxgroup > label {
-    font-size: 0.7rem !important;
+/* Category label — the span that holds the group title */
+.checkboxgroup span:not(.ml-2) {
+    font-size: 0.85rem !important;
     font-weight: 600 !important;
-    color: #999 !important;
-    letter-spacing: 0.08em !important;
-    text-transform: uppercase !important;
-    margin-bottom: 2px !important;
+    color: #333 !important;
+    letter-spacing: 0 !important;
+    margin-bottom: 4px !important;
 }
 
 /* Checkbox items — vertical list */
@@ -250,11 +262,7 @@ def make_save_fn(all_choices_per_cat):
 
 # --- Build app ---
 
-theme = gr.themes.Base(
-    primary_hue=gr.themes.colors.neutral,
-    secondary_hue=gr.themes.colors.neutral,
-    neutral_hue=gr.themes.colors.neutral,
-)
+theme = gr.themes.Monochrome()
 
 categories = parse_shopping_list()
 recipes = parse_recipes()
