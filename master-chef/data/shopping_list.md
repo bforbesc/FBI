@@ -6,9 +6,9 @@
 ---
 
 ## 🥩 Carnes, Peixe e Marisco
-- [ ] 4 bifinhos de vaca (~400 g)
-- [ ] 400 g de carne picada (80% magra / 20% gordura)
-- [ ] 300 g de camarão descascado (fresco ou congelado)
+- [x] 4 bifinhos de vaca (~400 g)
+- [x] 400 g de carne picada (80% magra / 20% gordura)
+- [x] 300 g de camarão descascado (fresco ou congelado)
 
 ## 🥦 Legumes, Frutas e Ervas Frescas
 - [ ] 400 g de cogumelos champignon (200 g bifinhos + 200 g gnocchi)
