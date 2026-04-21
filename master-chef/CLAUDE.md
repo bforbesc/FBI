@@ -38,6 +38,7 @@ data/
 ### Ao mostrar uma receita
 - Lê o ficheiro correspondente em `data/recipes/`
 - Se ainda não existir, cria-a na hora e guarda-a
+- **Abre sempre a aplicação Gradio** com `uv run app.py` em background antes de mostrar a receita
 
 ## Formatos obrigatórios
 
